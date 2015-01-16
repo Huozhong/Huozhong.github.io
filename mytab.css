@@ -1,0 +1,83 @@
+body div ul li{
+	padding: 0;
+	margin: 0;
+}
+ul{
+	list-style: none;
+}
+
+.noticed {
+	margin: 10px;
+	width: 300px;
+	height: 98px;
+	border: 1px solid #eee;
+	overflow: hidden;
+	position: relative;
+}
+
+.noticed .tab_hd{
+	background: #f7f7f7;
+	position: relative;
+	width: 300px;
+	height:26px;
+}
+
+.noticed .tab_hd ul{
+	padding:0;
+	margin:0;
+	position: absolute;
+	top:0;
+	left: 0;
+}
+
+.noticed .tab_hd ul li{
+	font-size: 12px;
+	float: left;
+	display: block;
+	height: 26px;
+	line-height: 26px;
+	overflow: hidden;
+	padding: 0 1px;
+	width: 58px;
+	text-align: center;
+	border-bottom: 1px solid #eee;
+}
+
+
+.noticed .tab_hd ul li.selected{
+	padding: 0;
+	font-weight: 700;
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+	border-bottom-color: #fff;
+	background: #fff;
+	color: orange;
+}
+
+.tab_bd{
+	position: relative;
+}
+
+.tab_bd div.mod{
+	display: none;
+	padding: 13px 20px;
+	position: absolute;
+	width: 258px;
+	height: 53px;
+}
+
+.tab_bd div.mod ul{
+	margin: 0;
+	padding: 0;
+}
+
+.tab_bd div.mod ul li{
+	padding: 0;
+	margin:0;
+	width: 127px;
+	height: 26px;
+	float: left;
+	font-size: 12px;
+	text-align: center;
+	line-height: 26px;
+}
